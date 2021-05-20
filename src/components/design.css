@@ -1,0 +1,101 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 248, 248);
+}
+
+.course_list_item{
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgba(130, 248, 11, 0.747);
+    color: rgb(14, 13, 13);
+    border-radius: 5px;
+    margin: 3px 0;
+}
+.course_list_item_not_selected{
+    padding: 15px;
+    cursor: pointer;
+    margin: 3px 0;
+}
+.course{
+    border: 1px solid;
+}
+.description{
+    border: 1px solid;
+}
+.opp_sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.descr{
+    background-color: silver;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.descr h3{
+    color: rgb(8, 197, 93);
+    background-color: snow;
+    border-radius: 5px;
+    padding: 5px;
+}
+.hh{
+    color: rgb(20, 90, 220);
+}
+
+.bg{
+    background-image: linear-gradient(#16A085,#FFB88C);
+}
+.cl{
+    background-color: rgb(179, 225, 240);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.hea{
+    color: rgb(8, 197, 93);
+    background-color: snow;
+    border-radius: 5px;
+    padding: 5px;
+}
+.colle{
+    background-color: silver;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.colle h3{
+    color: rgb(8, 197, 93);
+    background-color: snow;
+    border-radius: 5px;
+    padding: 5px;
+}
+.pencil{
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+
+.logoutButtonuser{
+    position: absolute;
+    top: 1%;
+    right: 60px;
+    background-color: thistle;
+    background: silver;
+    
+}
+.head_user{
+    border-radius: 3px;
+    border: 1px solid rgb(15, 15, 15);
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(238, 59, 119);
+    color: whitesmoke;
+    font-weight: 800;
+    margin: 0 3em;
+}

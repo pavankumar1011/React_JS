@@ -1,0 +1,39 @@
+.inputs{
+    margin: 15px 0;
+}
+.inputs .MuiTextField-root{
+    width: 100%;
+}
+.col_reg{
+    color: blue;
+    text-align: center;
+}
+.col_reg_bg{
+    background-image:linear-gradient(#56CCF2,#2F80ED)
+}
+.head_college{
+    border-radius: 3px;
+    border: 1px solid red;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(26, 73, 224);
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 0 3em;
+}
+.logoutButton{
+    position: absolute;
+    top: 1%;
+    right: 60px;
+    background-color: thistle;
+    background: silver;    
+}
+.sub_cou{
+    position: absolute;
+    left: 50%;
+
+}
+.col_data_bg{
+    background-image: linear-gradient(#16A085,#FFB88C);
+    
+}
